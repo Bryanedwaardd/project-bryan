@@ -2,6 +2,9 @@
     --primary-color:#000814;
     --secondary-color:#003049;
     --tertiary-color:#d62828;
+    --fourth-color:#1ED400;
+    --fifth-color: #E2AA19;
+
 }
 
 body{
@@ -18,4 +21,90 @@ body{
 
 .bg-tertiary{
     background-color: var(--tertiary-color);
+}
+
+.row p{
+    color: white;
+    opacity: 0.75;
+    margin-bottom: 8%;
+    max-width: 200px;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+
+.col-3{
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.col-3 img{
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+.col-3 .card-title{
+    margin: 0 auto;
+    max-width: 300px;
+    text-align: center;
+    color: white;
+}
+
+.col-3 .card-text{
+    margin: 0 auto;
+    max-width: 300px;
+    text-align: center;
+}
+
+.card{
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+
+.card .blue:hover{
+    background-color: var(--secondary-color);
+    border: var(--secondary-color)  2px solid;
+    padding: 20px
+}
+
+.card .blue{
+    border-radius: 10px;
+    border: var(--secondary-color)  2px solid;
+    padding: 20px;
+}
+
+.card .red:hover{
+    background-color: var(--secondary-color);
+    border: var(--tertiary-color)  2px solid;
+    padding: 20px
+}
+
+.card .red{
+    border-radius: 10px;
+    border: var(--tertiary-color)  2px solid;
+    padding: 20px;
+}
+
+.card .yellow:hover{
+    background-color: var(--secondary-color);
+    border: var(--fifth-color)  2px solid;
+    padding: 20px
+}
+
+.card .yellow{
+    border-radius: 10px;
+    border: var(--fifth-color)  2px solid;
+    padding: 20px;
+}
+
+.card .green:hover{
+    background-color: var(--secondary-color);
+    border: var(--fourth-color)  2px solid;
+    padding: 20px
+}
+
+.card .green{
+    border-radius: 10px;
+    border: var(--fourth-color)  2px solid;
+    padding: 20px;
 }
