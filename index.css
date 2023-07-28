@@ -4,7 +4,8 @@
     --tertiary-color:#d62828;
     --fourth-color:#1ED400;
     --fifth-color: #E2AA19;
-
+    --sixth-color:#ffffff;
+    --seventh-color:#d9d9d9;
 }
 
 body{
@@ -23,6 +24,11 @@ body{
     background-color: var(--tertiary-color);
 }
 
+.skill{
+    max-width: 370px;
+    margin: 0 auto;
+}
+
 .row p{
     color: white;
     opacity: 0.75;
@@ -31,7 +37,6 @@ body{
     margin-top: 3%;
     margin-left: 3%;
 }
-
 
 .col-3{
     max-width: 250px;
@@ -73,6 +78,14 @@ body{
     padding: 20px;
 }
 
+.card .white{
+    width: 100%;
+    border-radius: 10px;
+    border: var(--sixth-color)  1px solid;
+    padding: 10px 60px;
+
+}
+
 .card .red:hover{
     background-color: var(--secondary-color);
     border: var(--tertiary-color)  2px solid;
@@ -107,4 +120,27 @@ body{
     border-radius: 10px;
     border: var(--fourth-color)  2px solid;
     padding: 20px;
+}
+
+.description{
+    max-width: 300px;
+}
+
+.icons img:hover{
+    border-color: #003049;
+}
+
+.footer{
+    padding: 5px 35px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.footer-image{
+    max-width: 60px;
+    background-color: var(--seventh-color);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
 }
